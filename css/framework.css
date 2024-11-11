@@ -54,6 +54,14 @@
   padding: 20px;
 }
 
+.pt-15 {
+  padding-top: 15px;
+}
+
+.pb-15 {
+  padding-bottom: 15px;
+}
+
 .m-0 {
   margin: 0;
 }

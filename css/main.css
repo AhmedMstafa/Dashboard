@@ -230,6 +230,7 @@ ul {
   grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
   margin-right: 20px;
   margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 767px) {
