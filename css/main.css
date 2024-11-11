@@ -458,3 +458,38 @@ ul {
 }
 
 /* Start Latest News */
+
+/* Start Tasks */
+
+.tasks .task-row:not(:last-of-type) {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.tasks .info {
+  flex-grow: 1;
+}
+
+.tasks .done {
+  opacity: 0.3;
+}
+
+.tasks .done h3,
+.tasks .done p {
+  text-decoration: line-through;
+}
+
+.tasks .delete {
+  cursor: pointer;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.tasks .delete:hover {
+  color: var(--red-color);
+}
+
+/* End Tasks */
