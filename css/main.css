@@ -489,8 +489,22 @@ ul {
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
 }
+
 .tasks .delete:hover {
   color: var(--red-color);
 }
 
 /* End Tasks */
+
+/* Start Latest Uploads */
+
+.latest-uploads ul li:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+
+.latest-uploads ul li img {
+  width: 40px;
+  height: 40px;
+}
+
+/* End Latest Uploads */
