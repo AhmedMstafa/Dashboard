@@ -74,6 +74,10 @@
   margin-top: 20px;
 }
 
+.mb-10 {
+  margin-bottom: 10px;
+}
+
 .mb-20 {
   margin-bottom: 20px;
 }
@@ -94,8 +98,28 @@
   color: white;
 }
 
+.c-blue {
+  color: var(--blue-color);
+}
+
+.c-orange {
+  color: var(--orange-color);
+}
+
+.c-green {
+  color: var(--green-color);
+}
+
 .bg-blue {
   background-color: var(--blue-color);
+}
+
+.bg-orange {
+  background-color: var(--orange-color);
+}
+
+.bg-green {
+  background-color: var(--green-color);
 }
 
 .bg-white {
@@ -175,6 +199,12 @@
 /* End Width */
 
 /* Start Components */
+
+.center-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .between-flex {
   display: flex;
