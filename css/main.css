@@ -945,24 +945,6 @@ ul {
   -o-transform: scale(1);
 }
 
-.toggle-switch {
-  position: relative;
-  background-color: #ccc;
-  width: 78px;
-  height: 32px;
-  border-radius: 16px;
-  cursor: pointer;
-  -webkit-border-radius: 16px;
-  -moz-border-radius: 16px;
-  -ms-border-radius: 16px;
-  -o-border-radius: 16px;
-  transition: 0.3s;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -ms-transition: 0.3s;
-  -o-transition: 0.3s;
-}
-
 .backup-control .servers {
   border-top: 1px solid #eee;
   padding-top: 20px;
@@ -985,6 +967,24 @@ ul {
 .backup-control .servers input[type="radio"]:checked + .server {
   border-color: var(--blue-color);
   color: var(--blue-color);
+}
+
+.toggle-switch {
+  position: relative;
+  background-color: #ccc;
+  width: 78px;
+  height: 32px;
+  border-radius: 16px;
+  cursor: pointer;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
 }
 
 .toggle-switch::before {
@@ -1023,7 +1023,92 @@ ul {
   color: var(--blue-color);
 }
 
+@media (max-width: 767px) {
+  .toggle-switch {
+    height: 24px;
+  }
+  .toggle-switch::before {
+    height: 16px;
+    width: 16px;
+  }
+  .toggle-checkbox:checked + .toggle-switch::before {
+    left: 58px;
+  }
+}
+
 /* End Settings */
+
+/* Start Profile */
+
+@media (max-width: 767px) {
+  .profile-page .overview {
+    flex-direction: column;
+  }
+}
+
+.profile-page .avatar-box {
+  width: 300px;
+}
+
+@media (min-width: 768px) {
+  .profile-page .avatar-box {
+    border-right: 1px solid #eee;
+  }
+}
+
+.profile-page .avatar-box > img {
+  width: 120px;
+  height: 120px;
+}
+.profile-page .avatar-box .level {
+  height: 6px;
+  overflow: hidden;
+  margin: auto;
+  width: 70%;
+}
+.profile-page .avatar-box .level span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background-color: var(--blue-color);
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.profile-page .info-box .box {
+  flex-wrap: wrap;
+  border-bottom: 1px solid #eee;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.profile-page .info-box .box:hover {
+  background-color: #f9f9f9;
+}
+
+.profile-page .info-box .box > div {
+  min-width: 250px;
+  padding: 10px 0 0;
+}
+
+@media (max-width: 767px) {
+  .profile-page .info-box .box > div {
+    padding: 15px 0;
+  }
+}
+
+.profile-page .info-box h4 {
+  font-weight: normal;
+}
+
+/* End Profile */
 
 /* Start Animation */
 
