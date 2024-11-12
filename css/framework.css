@@ -266,7 +266,7 @@
 
 /* End Border */
 
-/* Start Width */
+/* Start Width & Height */
 
 .w-full {
   width: 100%;
@@ -276,7 +276,11 @@
   width: fit-content;
 }
 
-/* End Width */
+.h-full {
+  height: 100%;
+}
+
+/* End Width & Height */
 
 /* Start Components */
 
