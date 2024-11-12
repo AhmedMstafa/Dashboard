@@ -749,6 +749,11 @@ ul {
   min-height: 150px;
 }
 
+.settings-page .email {
+  display: inline-flex;
+  width: calc(100% - 80px);
+}
+
 .toggle-checkbox {
   -webkit-appearance: none;
   appearance: none;

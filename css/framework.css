@@ -248,6 +248,10 @@
   border: none;
 }
 
+.border-ccc {
+  border: 1px solid #ccc;
+}
+
 .rad-6 {
   border-radius: 6px;
   -webkit-border-radius: 6px;
