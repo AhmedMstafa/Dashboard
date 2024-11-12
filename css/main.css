@@ -978,6 +978,7 @@ ul {
   border: 2px solid #eee;
   position: relative;
 }
+
 .backup-control .servers .server label {
   cursor: pointer;
 }
