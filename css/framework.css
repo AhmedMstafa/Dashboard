@@ -256,6 +256,10 @@
   border: 1px solid #ccc;
 }
 
+.border-eee {
+  border: 1px solid #eee;
+}
+
 .rad-6 {
   border-radius: 6px;
   -webkit-border-radius: 6px;
