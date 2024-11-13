@@ -58,6 +58,10 @@
   padding-top: 15px;
 }
 
+.pt-10 {
+  padding-top: 10px;
+}
+
 .pt-20 {
   padding-top: 20px;
 }
@@ -208,6 +212,10 @@
 
 .p-relative {
   position: relative;
+}
+
+.p-absolute {
+  position: absolute;
 }
 
 /* End Postion */
