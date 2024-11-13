@@ -1023,19 +1023,6 @@ ul {
   color: var(--blue-color);
 }
 
-@media (max-width: 767px) {
-  .toggle-switch {
-    height: 24px;
-  }
-  .toggle-switch::before {
-    height: 16px;
-    width: 16px;
-  }
-  .toggle-checkbox:checked + .toggle-switch::before {
-    left: 58px;
-  }
-}
-
 /* End Settings */
 
 /* Start Profile */
@@ -1102,10 +1089,102 @@ ul {
   .profile-page .info-box .box > div {
     padding: 15px 0;
   }
+
+  .profile-page .info-box .box {
+    justify-content: center;
+  }
 }
 
 .profile-page .info-box h4 {
   font-weight: normal;
+}
+
+.profile-page .info-box .toggle-switch {
+  height: 20px;
+}
+
+@media (max-width: 767px) {
+  .profile-page .info-box .toggle-switch {
+    margin: auto;
+  }
+}
+
+.profile-page .info-box .toggle-switch::before {
+  width: 12px;
+  height: 12px;
+  font-size: 8px;
+}
+
+.profile-page .toggle-checkbox:checked + .toggle-switch::before {
+  left: 62px;
+}
+
+@media (max-width: 767px) {
+  .profile-page .other-data {
+    flex-direction: column;
+  }
+}
+
+.profile-page .skills-card {
+  flex-grow: 1;
+}
+
+.profile-page .skills-card ul li {
+  padding: 15px 0;
+}
+.profile-page .skills-card ul li:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+.profile-page .skills-card ul li span {
+  display: inline-flex;
+  padding: 4px 10px;
+  background-color: #eee;
+  font-size: 14px;
+  margin-bottom: 5px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.profile-page .activities {
+  flex-grow: 2;
+}
+
+.profile-page .skills-card ul li span:not(:last-child) {
+  margin-right: 5px;
+}
+
+.profile-page .activity:not(:last-of-type) {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.profile-page .activity img {
+  width: 64px;
+  height: 64px;
+  margin-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .profile-page .activity .date {
+    margin-left: auto;
+    text-align: right;
+  }
+}
+@media (max-width: 768px) {
+  .profile-page .activity {
+    flex-direction: column;
+  }
+  .profile-page .activity img {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .profile-page .activity .date {
+    margin-top: 15px;
+  }
 }
 
 /* End Profile */
