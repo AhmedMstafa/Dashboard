@@ -1,6 +1,6 @@
 # Dashboard
 
-The Dashboard Project is a sophisticated web application developed as part of Osama Elzero's web development tutorials. This project focuses on creating a fully functional admin dashboard using modern web development techniques, including HTML, CSS, and JavaScript.
+The Dashboard Project is a sophisticated web application developed as part of Osama Elzero's web development tutorials. This project focuses on creating a fully functional admin dashboard using modern web development techniques, including HTML, CSS, and .
 
 ## Project Overview
 
