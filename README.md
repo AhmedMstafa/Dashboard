@@ -39,6 +39,3 @@ To get a local copy of the project up and running, follow these simple steps:
     ```
 3. Open the `index.html` file in your web browser to view the project.
 
-## Acknowledgements
-
- to Osama Elzero 
